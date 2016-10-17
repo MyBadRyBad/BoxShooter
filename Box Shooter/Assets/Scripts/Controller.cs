@@ -5,7 +5,7 @@ public class Controller : MonoBehaviour {
 	
 	// public variables
 	public float moveSpeed = 3.0f;
-	public float gravity = 9.81f;
+	public static float gravity = 9.81f;
 
 	private CharacterController myController;
 

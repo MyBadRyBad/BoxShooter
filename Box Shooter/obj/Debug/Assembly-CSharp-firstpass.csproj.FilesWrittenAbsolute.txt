@@ -1,0 +1,17 @@
+/Users/ryanbadilla/gamedev/MSU-GameDevelopment/BoxShooter/Box Shooter/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/ryanbadilla/gamedev/MSU-GameDevelopment/BoxShooter/Box Shooter/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/ryanbadilla/gamedev/MSU-GameDevelopment/BoxShooter/Box Shooter/obj/Debug/Assembly-CSharp-firstpass.dll
+/Users/ryanbadilla/gamedev/MSU-GameDevelopment/BoxShooter/Box Shooter/obj/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/ryanbadilla/gamedev/MSU-GameDevelopment/BoxShooter/Box Shooter/Temp/bin/Debug/UnityEngine.dll
+/Users/ryanbadilla/gamedev/MSU-GameDevelopment/BoxShooter/Box Shooter/Temp/bin/Debug/UnityEditor.dll
+/Users/ryanbadilla/gamedev/MSU-GameDevelopment/BoxShooter/Box Shooter/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/ryanbadilla/gamedev/MSU-GameDevelopment/BoxShooter/Box Shooter/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/ryanbadilla/gamedev/MSU-GameDevelopment/BoxShooter/Box Shooter/Temp/bin/Debug/Mono.Cecil.dll
+/Users/ryanbadilla/gamedev/MSU-GameDevelopment/BoxShooter/Box Shooter/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/ryanbadilla/gamedev/MSU-GameDevelopment/BoxShooter/Box Shooter/Temp/bin/Debug/Unity.DataContract.dll
+/Users/ryanbadilla/gamedev/MSU-GameDevelopment/BoxShooter/Box Shooter/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/ryanbadilla/gamedev/MSU-GameDevelopment/BoxShooter/Box Shooter/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/ryanbadilla/gamedev/MSU-GameDevelopment/BoxShooter/Box Shooter/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/ryanbadilla/gamedev/MSU-GameDevelopment/BoxShooter/Box Shooter/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/ryanbadilla/gamedev/MSU-GameDevelopment/BoxShooter/Box Shooter/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/ryanbadilla/gamedev/MSU-GameDevelopment/BoxShooter/Box Shooter/Temp/bin/Debug/Mono.Cecil.Mdb.dll

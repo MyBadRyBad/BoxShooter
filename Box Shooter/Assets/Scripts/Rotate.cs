@@ -14,7 +14,6 @@ public class Rotate : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-
 		// do the appropriate rotation based on the way state
 		switch(way)
 		{

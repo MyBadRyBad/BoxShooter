@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour {
 
 	private float currentTime;
 
+
 	// setup the game
 	void Start () {
 
@@ -72,7 +73,7 @@ public class GameManager : MonoBehaviour {
 			}
 		}
 	}
-
+		
 	void EndGame() {
 		// game is over
 		gameIsOver = true;
