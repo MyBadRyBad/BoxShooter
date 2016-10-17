@@ -13,6 +13,9 @@ public class SpawnGameObjects : MonoBehaviour
 	public float zMaxRange = 25.0f;
 	public GameObject[] spawnObjects; // what prefabs to spawn
 
+	public float spawnDelay = 5.0f;
+	public bool spawnAroundPlayer = true;
+
 	private float nextSpawnTime;
 
 	// Use this for initialization
@@ -31,14 +34,18 @@ public class SpawnGameObjects : MonoBehaviour
 				return;
 		}
 
-		// if time to spawn a new game object
-		if (Time.time  >= nextSpawnTime) {
-			// Spawn the game object through function below
-			MakeThingToSpawn ();
+		if (spawnDelay <= 0) {
+			// if time to spawn a new game object
+			if (Time.time >= nextSpawnTime) {
+				// Spawn the game object through function below
+				MakeThingToSpawn ();
 
-			// determine the next time to spawn the object
-			nextSpawnTime = Time.time+secondsBetweenSpawning;
-		}	
+				// determine the next time to spawn the object
+				nextSpawnTime = Time.time + secondsBetweenSpawning;
+			}	
+		} else {
+			spawnDelay = spawnDelay - Time.deltaTime;
+		}
 	}
 
 	void MakeThingToSpawn ()
@@ -49,6 +56,16 @@ public class SpawnGameObjects : MonoBehaviour
 		spawnPosition.x = Random.Range (xMinRange, xMaxRange);
 		spawnPosition.y = Random.Range (yMinRange, yMaxRange);
 		spawnPosition.z = Random.Range (zMinRange, zMaxRange);
+
+
+		if (spawnAroundPlayer) {
+			GameObject playerObject = GameObject.FindGameObjectWithTag ("Player");
+			if (playerObject) {
+				spawnPosition.x = spawnPosition.x + playerObject.transform.position.x;
+				spawnPosition.y = spawnPosition.y + playerObject.transform.position.y;
+				spawnPosition.z = spawnPosition.z + playerObject.transform.position.z;
+			}
+		}
 
 		// determine which object to spawn
 		int objectToSpawn = Random.Range (0, spawnObjects.Length);
